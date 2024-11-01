@@ -7,6 +7,8 @@ return {
     config = function()
         require("codeium").setup({
             enable_chat = true,
+            -- to use virtual text, uncomment the following line
+            -- virtual_text = {enabled = true}
         })
     end
 }
